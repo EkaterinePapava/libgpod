@@ -1,0 +1,856 @@
+# Georgian translation for libgpod.
+# Copyright (C) 2026 libgpod's authors.
+# This file is distributed under the same license as the libgpod package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgpod\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-03 16:08-0400\n"
+"PO-Revision-Date: 2026-04-06 03:18+0200\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../src/db-artwork-parser.c:140
+#, c-format
+msgid "Unexpected mhod string type: %d\n"
+msgstr "მოულოდნელი mhod სტრიქონის ტიპი: %d\n"
+
+#: ../src/db-artwork-parser.c:460
+#, c-format
+msgid "Unexpected mhsd index: %d\n"
+msgstr "მოულოდნელი mhsd ინდექსი: %d\n"
+
+#: ../src/db-artwork-parser.c:540
+#, c-format
+msgid "Could not find corresponding track (dbid: %s) for artwork entry.\n"
+msgstr "ვერ ვიპოვე შესაბამისი სიმღერა (dbid: %s) ნამუშევრის ჩანაწერისთვის.\n"
+
+#: ../src/db-artwork-parser.c:548
+#, c-format
+msgid "iTunesDB and ArtworkDB artwork sizes inconsistent (%d+%d != %d)\n"
+msgstr ""
+"iTunesDB-ის და ArtworkDB-ის ნამუშევრების ზომები არამდგრადია (%d+%d != %d)\n"
+
+#: ../src/db-image-parser.c:91
+#, c-format
+msgid "Unexpected image type in mhni: %d, offset: %d\n"
+msgstr "მოულოდნელი გამოსახულების ტიპი mhni-ში: %d, წანაცვლება: %d\n"
+
+#: ../src/itdb_artwork.c:163
+#, c-format
+msgid "Could not access file '%s'."
+msgstr "ფაილის (%s) წვდომის შეცდომა."
+
+#: ../src/itdb_artwork.c:181 ../src/itdb_artwork.c:241
+#: ../src/itdb_artwork.c:298
+#, c-format
+msgid "Artwork support not compiled into libgpod."
+msgstr "ნამუშევრების მხარდაჭერა libgpod-ის კომპილაციის დროს ჩართული არ იყო."
+
+#: ../src/itdb_artwork.c:668
+#, c-format
+msgid "Could not find on iPod: '%s'\n"
+msgstr "ვერ ვიპოვე iPod-ზე: '%s'\n"
+
+#: ../src/itdb_artwork.c:828
+#, c-format
+msgid ""
+"Unable to retrieve thumbnail (appears to be on iPod, but no image info "
+"available): filename: '%s'\n"
+msgstr ""
+"მინიატურის მიღება შეუძლებელია (როგორც ჩანს, ის iPod-ზე არსებობს, მაგრამ "
+"ინფორმაცია მის შესახებ მიუწვდომელია): ფაილის სახელი: '%s'.\n"
+
+#: ../src/itdb_device.c:263
+msgid "Invalid"
+msgstr "არასწორი"
+
+#: ../src/itdb_device.c:264 ../src/itdb_device.c:305
+msgid "Unknown"
+msgstr "უცნობი"
+
+#: ../src/itdb_device.c:265
+msgid "Color"
+msgstr "ფერადი"
+
+#: ../src/itdb_device.c:266
+msgid "Color U2"
+msgstr "ფერადი U2"
+
+#: ../src/itdb_device.c:267
+msgid "Grayscale"
+msgstr "ნაცრისფერი"
+
+#: ../src/itdb_device.c:268
+msgid "Grayscale U2"
+msgstr "ნაცრისფერი U2"
+
+#: ../src/itdb_device.c:269
+msgid "Mini (Silver)"
+msgstr "Mini (ვერცხლისფერი)"
+
+#: ../src/itdb_device.c:270
+msgid "Mini (Blue)"
+msgstr "Mini (ლურჯი)"
+
+#: ../src/itdb_device.c:271
+msgid "Mini (Pink)"
+msgstr "Mini (ვარდისფერი)"
+
+#: ../src/itdb_device.c:272
+msgid "Mini (Green)"
+msgstr "Mini (მწვანე)"
+
+#: ../src/itdb_device.c:273
+msgid "Mini (Gold)"
+msgstr "Mini (ოქროსფერი)"
+
+#: ../src/itdb_device.c:274
+msgid "Shuffle"
+msgstr "Shuffle"
+
+#: ../src/itdb_device.c:275
+msgid "Nano (White)"
+msgstr "Nano (თეთრი)"
+
+#: ../src/itdb_device.c:276
+msgid "Nano (Black)"
+msgstr "Nano (შავი)"
+
+#: ../src/itdb_device.c:277
+msgid "Video (White)"
+msgstr "Video (თეთრი)"
+
+#: ../src/itdb_device.c:278
+msgid "Video (Black)"
+msgstr "Video (შავი)"
+
+#: ../src/itdb_device.c:279
+msgid "Mobile (1)"
+msgstr "მობილური (1)"
+
+#: ../src/itdb_device.c:280
+msgid "Video U2"
+msgstr "ვიდეო U2"
+
+#: ../src/itdb_device.c:281
+msgid "Nano (Silver)"
+msgstr "Nano (ვერცხლისფერი)"
+
+#: ../src/itdb_device.c:282
+msgid "Nano (Blue)"
+msgstr "Nano (ლურჯი)"
+
+#: ../src/itdb_device.c:283
+msgid "Nano (Green)"
+msgstr "Nano (მწვანე)"
+
+#: ../src/itdb_device.c:284
+msgid "Nano (Pink)"
+msgstr "Nano (ვარდისფერი)"
+
+#: ../src/itdb_device.c:285
+msgid "Nano (Red)"
+msgstr "Nano (წითელი)"
+
+#: ../src/itdb_device.c:286
+msgid "Nano (Yellow)"
+msgstr "Nano (ყვითელი)"
+
+#: ../src/itdb_device.c:287
+msgid "Nano (Purple)"
+msgstr "Nano (იისფერი)"
+
+#: ../src/itdb_device.c:288
+msgid "Nano (Orange)"
+msgstr "Nano (ნარინჯისფერი)"
+
+#: ../src/itdb_device.c:289
+msgid "iPhone (1)"
+msgstr "iPhone (1)"
+
+#: ../src/itdb_device.c:290
+msgid "Shuffle (Silver)"
+msgstr "Shuffle (ვერცხლისფერი)"
+
+#: ../src/itdb_device.c:291
+msgid "Shuffle (Pink)"
+msgstr "Shuffle (ვარდისფერი)"
+
+#: ../src/itdb_device.c:292
+msgid "Shuffle (Blue)"
+msgstr "Shuffle (ლურჯი)"
+
+#: ../src/itdb_device.c:293
+msgid "Shuffle (Green)"
+msgstr "Shuffle (მწვანე)"
+
+#: ../src/itdb_device.c:294
+msgid "Shuffle (Orange)"
+msgstr "Shuffle (ნარინჯისფერი)"
+
+#: ../src/itdb_device.c:295
+msgid "Shuffle (Purple)"
+msgstr "Shuffle (იისფერი)"
+
+#: ../src/itdb_device.c:296
+msgid "Shuffle (Red)"
+msgstr "Shuffle (წითელი)"
+
+#: ../src/itdb_device.c:297
+msgid "Classic (Silver)"
+msgstr "Classic (ვერცხლისფერი)"
+
+#: ../src/itdb_device.c:298
+msgid "Classic (Black)"
+msgstr "Classic (შავი)"
+
+#: ../src/itdb_device.c:299
+msgid "Touch (Black)"
+msgstr "Touch (შავი)"
+
+#: ../src/itdb_device.c:306
+msgid "Regular (1st Gen.)"
+msgstr "Regular (1 თაობა.)"
+
+#: ../src/itdb_device.c:307
+msgid "Regular (2nd Gen.)"
+msgstr "Regular (2-ე თაობა.)"
+
+#: ../src/itdb_device.c:308
+msgid "Regular (3rd Gen.)"
+msgstr "Regular (3-ე თაობა.)"
+
+#: ../src/itdb_device.c:309
+msgid "Regular (4th Gen.)"
+msgstr "Regular (4-ე თაობა.)"
+
+#: ../src/itdb_device.c:310
+msgid "Photo"
+msgstr "სურათი"
+
+#: ../src/itdb_device.c:311
+msgid "Mobile Phones"
+msgstr "მობილური ტელეფონები"
+
+#: ../src/itdb_device.c:312
+msgid "Mini (1st Gen.)"
+msgstr "Mini (1 თაობა)"
+
+#: ../src/itdb_device.c:313
+msgid "Mini (2nd Gen.)"
+msgstr "Mini (2-ე თაობა)"
+
+#: ../src/itdb_device.c:314
+msgid "Shuffle (1st Gen.)"
+msgstr "Shuffle (1 თაობა)"
+
+#: ../src/itdb_device.c:315
+msgid "Shuffle (2nd Gen.)"
+msgstr "Shuffle (2-ე თაობა)"
+
+#: ../src/itdb_device.c:316
+msgid "Shuffle (3rd Gen.)"
+msgstr "Shuffle (3-ე თაობა)"
+
+#: ../src/itdb_device.c:317
+msgid "Nano (1st Gen.)"
+msgstr "Nano (1 თაობა)"
+
+#: ../src/itdb_device.c:318
+msgid "Nano (2nd Gen.)"
+msgstr "Nano (2-ე თაობა)"
+
+#: ../src/itdb_device.c:319
+msgid "Nano Video (3rd Gen.)"
+msgstr "Nano Video (3-ე თაობა)"
+
+#: ../src/itdb_device.c:320
+msgid "Nano Video (4th Gen.)"
+msgstr "Nano Video (4-ე თაობა)"
+
+#: ../src/itdb_device.c:321
+msgid "Video (1st Gen.)"
+msgstr "Video (1 თაობა)"
+
+#: ../src/itdb_device.c:322
+msgid "Video (2nd Gen.)"
+msgstr "Video (2-ე თაობა)"
+
+#: ../src/itdb_device.c:323 ../src/itdb_device.c:324
+msgid "Classic"
+msgstr "Classic"
+
+#: ../src/itdb_device.c:325
+msgid "Touch"
+msgstr "Touch"
+
+#: ../src/itdb_device.c:326
+msgid "iPhone"
+msgstr "iPhone"
+
+#: ../src/itdb_device.c:327 ../src/itdb_device.c:328
+msgid "Unused"
+msgstr "გამოუყენებელი"
+
+#: ../src/itdb_device.c:928
+#, c-format
+msgid "Could not open '%s' for writing."
+msgstr "'%s'-ის ჩასაწერად გახსნის შეცდომა."
+
+#: ../src/itdb_device.c:937
+#, c-format
+msgid "Device directory does not exist."
+msgstr "მოწყობილობის საქაღალდე არ არსებობს."
+
+#: ../src/itdb_itunesdb.c:507
+#, c-format
+msgid "Illegal seek to offset %ld (length %ld) in file '%s'."
+msgstr "დაუშვებელი გადახვევა წანაცვლებაზე %ld (სიგრძე %ld) ფაილში '%s'."
+
+#: ../src/itdb_itunesdb.c:910
+#, c-format
+msgid "Not a Play Counts file: '%s' (missing mhdp header)."
+msgstr "არ წარმოადგენს დაკვრის რაოდენობის ფაილს: '%s' (აკლია mhdp თავსართი)."
+
+#: ../src/itdb_itunesdb.c:925
+#, c-format
+msgid "Play Counts file ('%s'): header length smaller than expected (%d<96)."
+msgstr ""
+"დაკვრის რაოდენობების ფაილი ('%s'): თავსართის სიგრძე მოსალოდნელზე მცირეა "
+"(%d<96)."
+
+#: ../src/itdb_itunesdb.c:939
+#, c-format
+msgid "Play Counts file ('%s'): entry length smaller than expected (%d<12)."
+msgstr ""
+"დაკვრის რაოდენობების ფაილი ('%s'): ჩანაწერის სიგრძე მოსალოდნელზე მცირეა "
+"(%d<12)."
+
+#: ../src/itdb_itunesdb.c:1014
+#, c-format
+msgid "iTunesStats file ('%s'): entry length smaller than expected (%d<18)."
+msgstr ""
+"ფაილი iTunesStats ('%s'): ჩანაწერის სიგრძე მოსალოდნელზე მცირეა (%d<18)."
+
+#: ../src/itdb_itunesdb.c:1333
+#, c-format
+msgid "iTunesDB corrupt: no MHOD at offset %ld in file '%s'."
+msgstr "iTunesDB დაზიანებულია: MHOD არ არსებობს წანაცვლებაზე %ld ფაილში '%s'."
+
+#: ../src/itdb_itunesdb.c:1519
+#, c-format
+msgid "Unknown smart rule action at %ld: %x. Trying to continue.\n"
+msgstr "უცნობი ჭკვიანი წესის ქმედება მისამართზე %ld: %x. ვცილობ, გავაგრძელო.\n"
+
+#: ../src/itdb_itunesdb.c:1550
+#, c-format
+msgid ""
+"Length of smart playlist rule field (%d) not as expected. Trying to continue "
+"anyhow.\n"
+msgstr ""
+"ჭკვიანი დასაკრავი სიის წესის ველის სიგრძე (%d) მოსალოდნელს არ უდრის. "
+"ვეცდები, რაღაცნაირად, მაინც გავაგრძელო.\n"
+
+#: ../src/itdb_itunesdb.c:1593
+#, c-format
+msgid "iTunesDB corrupt: no SLst at offset %ld in file '%s'."
+msgstr "iTunesDB corrupt: წანაცვლებაზე %ld ფაილში '%s' SLst არ არსებობს."
+
+#: ../src/itdb_itunesdb.c:1606
+#, c-format
+msgid ""
+"Encountered unknown MHOD type (%d) while parsing the iTunesDB. Ignoring.\n"
+"\n"
+msgstr ""
+"აღმოჩენილია უცნობი MHOD-ის ტიპი (%d) iTunesDB-ის დამუშავებისას. ის "
+"გამოტოვებული იქნება.\n"
+"\n"
+
+#: ../src/itdb_itunesdb.c:1689
+#, c-format
+msgid "iTunesDB corrupt: hunk length 0 for hunk at %ld in file '%s'."
+msgstr ""
+"iTunesDB დაზიანებულია: ფრაგმენტი სიგრძე უდრის 0-ს ფრაგმენტისთვის მისამართზე "
+"%ld ფაილში '%s'."
+
+#: ../src/itdb_itunesdb.c:1702
+#, c-format
+msgid ""
+"iTunesDB corrupt: no section '%s' found in section '%s' starting at %ld."
+msgstr ""
+"iTunesDB დაზიანებულია: სექცია'%s' სექციაში '%s' მისამართზე %ld აღმოჩენილი "
+"არაა."
+
+#: ../src/itdb_itunesdb.c:1716
+#, c-format
+msgid ""
+"header length of '%s' smaller than expected (%d < %d) at offset %ld in file "
+"'%s'."
+msgstr ""
+"'%s'-ის თავსართის სიგრძე მოსალოდნელზე მცირეა (%d < %d) წანაცვლებაზე %ld "
+"ფაილში '%s'."
+
+#: ../src/itdb_itunesdb.c:1801
+#, c-format
+msgid "Not a iTunesDB: '%s' (missing mhdb header)."
+msgstr "არ არის iTunesDB: '%s' (აკლია mhdb თავსართები)."
+
+#: ../src/itdb_itunesdb.c:1818
+#, c-format
+msgid ""
+"iTunesDB ('%s'): header length of mhsd hunk smaller than expected (%d<32). "
+"Aborting."
+msgstr ""
+"iTunesDB ('%s'): mhsd ფრაგმენტის თავსართის სიგრძე მოსალოდნელზე მცირეა "
+"(%d<32). მუშაობა შეწყდება."
+
+#: ../src/itdb_itunesdb.c:1839
+#, c-format
+msgid "iTunesDB '%s' corrupt: mhsd expected at %ld."
+msgstr "iTunesDB '%s' დაზიანებულიაt: მოველოდი mhsd-ს მისამართზე %ld."
+
+#: ../src/itdb_itunesdb.c:1944
+#, c-format
+msgid "Number of MHODs in mhip at %ld inconsistent in file '%s'."
+msgstr "MHOD-ების რაოდენობა mhip-ში მისმართზე %ld არამდგრადია ფაილში '%s'."
+
+#: ../src/itdb_itunesdb.c:2121
+#, c-format
+msgid "Number of MHODs in mhyp at %ld inconsistent in file '%s'."
+msgstr "MHOD-ების რაოდენობა mhyp-ში მისმართზე %ld არამდგრადია ფაილში '%s'."
+
+#: ../src/itdb_itunesdb.c:2131
+msgid "Master-PL"
+msgstr "Master-PL"
+
+#: ../src/itdb_itunesdb.c:2135
+msgid "Podcasts"
+msgstr "პოდკასტები"
+
+#: ../src/itdb_itunesdb.c:2137
+msgid "Playlist"
+msgstr "დასაკრავი სია"
+
+#: ../src/itdb_itunesdb.c:2159
+#, c-format
+msgid ""
+"iTunesDB corrupt: number of mhip sections inconsistent in mhyp starting at "
+"%ld in file '%s'."
+msgstr ""
+"iTunesDB დაზიანებულია: mhip სექციების რაოდენობა არამდგრადია mhyp-ში %ld-დან "
+"დაწყებული, ფაილში '%s'."
+
+#: ../src/itdb_itunesdb.c:2180
+#, c-format
+msgid "Itdb_Track ID '%d' not found.\n"
+msgstr "Itdb_Track ID \"%d\" ვერ მოიძებნა.\n"
+
+#: ../src/itdb_itunesdb.c:2524
+msgid "OTG Playlist"
+msgstr "OTG დასაკრავი სია"
+
+#: ../src/itdb_itunesdb.c:2542
+#, c-format
+msgid "Not a OTG playlist file: '%s' (missing mhpo header)."
+msgstr "არ წარმოადგენს OTG დასაკრავი სიის ფაილს: '%s' (აკლია თავსართი mhpo)."
+
+#: ../src/itdb_itunesdb.c:2556
+#, c-format
+msgid "OTG playlist file ('%s'): header length smaller than expected (%d<20)."
+msgstr ""
+"OTG დასაკრავი სიის ფაილი ('%s'): თავსართის სიგრძე მოსალოდნელზე მცირეა "
+"(%d<20)."
+
+#: ../src/itdb_itunesdb.c:2568
+#, c-format
+msgid "OTG playlist file ('%s'): entry length smaller than expected (%d<4)."
+msgstr ""
+"OTG დასაკრავი სიის ფაილი ('%s'): ჩანაწერის სიგრძე მოსალოდნელზე ნაკლებია "
+"(%d<4)."
+
+#: ../src/itdb_itunesdb.c:2603
+#, c-format
+msgid "OTG playlist file '%s': reference to non-existent track (%d)."
+msgstr "OTG დასაკრავი ფაილი '%s': მიმართვა არარსებულ ტრეკზე (%d)."
+
+#: ../src/itdb_itunesdb.c:2648
+#, c-format
+msgid "OTG Playlist %d"
+msgstr "OTG დასაკრავი სია %d"
+
+#. this should not be -- issue warning
+#: ../src/itdb_itunesdb.c:2716
+msgid ""
+"iTunesDB corrupt: number of tracks (mhit hunks) inconsistent. Trying to "
+"continue.\n"
+msgstr ""
+"iTunesDB დაზიანებულია: ტრეკების რაოდენობა (mhit-ის ფრაგმენტები) არამდგრადია. "
+"ვცდი, გავაგრძელო.\n"
+
+#. this should not be -- issue warning
+#: ../src/itdb_itunesdb.c:2779
+msgid ""
+"iTunesDB possibly corrupt: number of playlists (mhyp hunks) inconsistent. "
+"Trying to continue.\n"
+msgstr ""
+"iTunesDB ალბათ დაზიანებულია: დასაკრავი სიების რაოდენობა (mhyp ფრაგმენტები) "
+"არამდგრადია. ვცდი, გავაგრძელო.\n"
+
+#: ../src/itdb_itunesdb.c:2826
+#, c-format
+msgid ""
+"iTunesDB '%s' corrupt: Could not find tracklist (no mhsd type 1 section "
+"found)"
+msgstr ""
+"iTunesDB '%s' დაზიანებულია: ტრეკების სია აღმოჩენილი არაა (mhsd-ის ტიპი 1-ით "
+"სექცია აღმოჩენილი არაა)"
+
+#: ../src/itdb_itunesdb.c:2855
+#, c-format
+msgid ""
+"iTunesDB '%s' corrupt: Could not find playlists (no mhsd type 2 or type 3 "
+"sections found)"
+msgstr ""
+"iTunesDB '%s' დაზიანებულია: დასაკრავი სიები აღმოჩენილი არაა (mhsd-ის ტიპი 2-"
+"ით, ან ტიპი 3-ით სექცია აღმოჩენილი არაა)"
+
+#: ../src/itdb_itunesdb.c:2877
+#, c-format
+msgid "iTunes directory not found: '%s' (or similar)."
+msgstr "iTunes-ის საქაღალდე ვერ მოიძებნა: '%s' (ან მსგავსი)."
+
+#: ../src/itdb_itunesdb.c:2894
+#, c-format
+msgid "Music directory not found: '%s' (or similar)."
+msgstr "მუსიკის საქაღალდე ვერ მოიძებნა: '%s' (ან მსგავსი)."
+
+#: ../src/itdb_itunesdb.c:2912
+#, c-format
+msgid "Control directory not found: '%s' (or similar)."
+msgstr "კონტროლის საქაღალდე ვერ მოიძებნა: \"%s\" (ან მსგავსი)."
+
+#: ../src/itdb_itunesdb.c:3033
+#, c-format
+msgid "File not found: '%s'."
+msgstr "ფაილი აღმოჩენილი არაა: '%s'."
+
+#: ../src/itdb_itunesdb.c:5533
+#, c-format
+msgid "Path not found: '%s' (or similar)."
+msgstr "ბილიკი აღმოჩენილი არაა: '%s' (ან მსგავსი)."
+
+#: ../src/itdb_itunesdb.c:5742
+#, c-format
+msgid "Error renaming '%s' to '%s' (%s)."
+msgstr "ფაილის სახელის \"%s\"-დან \"%s\"-ზე გადარქმევის შეცდომა (%s)."
+
+#: ../src/itdb_itunesdb.c:5759 ../src/itdb_itunesdb.c:5776
+#: ../src/itdb_itunesdb.c:5793
+#, c-format
+msgid "Error removing '%s' (%s)."
+msgstr "%s-ის (%s) წაშლის შეცდომა."
+
+#: ../src/itdb_itunesdb.c:5960 ../src/itdb_itunesdb.c:6133
+#, c-format
+msgid "Mountpoint not set."
+msgstr "მიმაგრების წერტილი დაყენებული არაა."
+
+#: ../src/itdb_itunesdb.c:6000
+#, c-format
+msgid "No 'F..' directories found in '%s'."
+msgstr "'%s'-ში 'F..' საქაღალდეები აღმოჩენილი არაა."
+
+#: ../src/itdb_itunesdb.c:6021
+#, c-format
+msgid "Path not found: '%s'."
+msgstr "ბილიკი ვერ ვიპოვე: '%s'."
+
+#: ../src/itdb_itunesdb.c:6142
+#, c-format
+msgid "'%s' could not be accessed (%s)."
+msgstr "'%s'-სთან წვდომა შეუძლებელია (%s)."
+
+#: ../src/itdb_itunesdb.c:6152
+#, c-format
+msgid ""
+"Destination file '%s' does not appear to be on the iPod mounted at '%s'."
+msgstr "სამიზნე ფაილი '%s' '%s'-ზე მიმაგრებულ iPod-ზე აღმოჩენილი არაა."
+
+#: ../src/itdb_itunesdb.c:6360
+#, c-format
+msgid "Error opening '%s' for reading (%s)."
+msgstr "'%s'-ის წასაკითხად გახსნის შეცდომა (%s)."
+
+#: ../src/itdb_itunesdb.c:6372
+#, c-format
+msgid "Error opening '%s' for writing (%s)."
+msgstr "'%s'-ის ჩასაწერად გახსნის შეცდომა (%s)."
+
+#: ../src/itdb_itunesdb.c:6388
+#, c-format
+msgid "Error while reading from '%s' (%s)."
+msgstr "შეცდომა '%s'-დან წაკითხვისას (%s)."
+
+#: ../src/itdb_itunesdb.c:6403
+#, c-format
+msgid "Error while writing to '%s' (%s)."
+msgstr "შეცდომა '%s'-შ ჩაწერისას (%s)."
+
+#: ../src/itdb_itunesdb.c:6416 ../src/itdb_itunesdb.c:6426
+#, c-format
+msgid "Error when closing '%s' (%s)."
+msgstr "შეცდომა '%s'-ის დახურვისას (%s)."
+
+#: ../src/itdb_itunesdb.c:6856
+msgid "iPod"
+msgstr "iPod"
+
+#: ../src/itdb_itunesdb.c:7178
+#, c-format
+msgid "Problem creating iPod directory or file: '%s'."
+msgstr "შეცდომა iPod-ზე საქაღალდის ან ფაილის შექმნისას: '%s'."
+
+#: ../src/itdb_photoalbum.c:111
+#, c-format
+msgid "Photos directory not found: '%s' (or similar)."
+msgstr "ფოტოების დირექტორია ვერ მოიძებნა: \"%s\" (ან მსგავსი)."
+
+#: ../src/itdb_photoalbum.c:266 ../src/itdb_photoalbum.c:460
+msgid "Photo Library"
+msgstr "სურათების ბიბლიოთეკა"
+
+#: ../src/itdb_photoalbum.c:386
+#, c-format
+msgid "You need to specify the iPod model used before photos can be added."
+msgstr "სურათების დამატებამდე გამოყენებული iPod-ის მოდელის მითითებაა საჭირო."
+
+#: ../src/itdb_photoalbum.c:407
+#, c-format
+msgid ""
+"Your iPod does not seem to support photos. Maybe you need to specify the "
+"correct iPod model number? It is currently set to 'x%s' (%s/%s)."
+msgstr ""
+"როგორც ჩანს, თქვენს iPod-ს სურათების მხარდაჭერა არ აქვს. შეიძლება, "
+"მითითებული iPod-ის მოდელის ნომერი სწორი არაა? ამჟამად დაყენებულია "
+"მნიშვნელობაზე 'x%s' (%s/%s)."
+
+#: ../src/itdb_photoalbum.c:419
+#, c-format
+msgid "Could not access file '%s'. Photo not added."
+msgstr "ფაილთან '%s' წვდომა აკრძალულია. ფოტო არ დამატებულა."
+
+#: ../src/itdb_photoalbum.c:448
+#, c-format
+msgid ""
+"Unexpected error in itdb_photodb_add_photo_internal() while adding photo, "
+"please report."
+msgstr ""
+"მოულოდნელი შეცდომა ფუნქციაში itdb_photodb_add_photo_internal() სურათის "
+"დამატებისას. მოგვწერეთ ამის შესახებ."
+
+#: ../src/itdb_photoalbum.c:468
+#, c-format
+msgid ""
+"Library compiled without gdk-pixbuf support. Picture support is disabled."
+msgstr ""
+"ბიბლიოთეკა აგებულია gdk-pixbuf-ის მხარდაჭერის გარეშე. სურათების მხარდაჭერა "
+"გამორთულია."
+
+#. New action!
+#: ../src/itdb_playlist.c:78
+#, c-format
+msgid "Unknown action (%d) in smart playlist will be ignored.\n"
+msgstr "უცნობი ქმედება (%d) ჭკვიან დააკრავ სიაში გამოტოვებული იქნება.\n"
+
+#: ../src/itdb_thumb.c:326
+#, c-format
+msgid "Illegal filename: '%s'.\n"
+msgstr "დაუშვებელი ფაილის სახელი: '%s'.\n"
+
+#: ../src/itdb_thumb.c:331
+#, c-format
+msgid "Mountpoint not set.\n"
+msgstr "მიმაგრების წერტილი დაყენებული არაა.\n"
+
+#: ../tests/test-photos.c:41
+#, c-format
+msgid ""
+"Usage to add photos:\n"
+"  %s add <mountpoint> <albumname> [<filename(s)>]\n"
+"  <albumname> should be set to 'NULL' to add photos to the master photo "
+"album\n"
+"  (Photo Library) only. If you don't specify any filenames an empty album "
+"will\n"
+"  be created.\n"
+msgstr ""
+"გამოყენება სურათების დასამატებლად:\n"
+"  %s add <mountpoint> <albumname> [<filename(s)>]\n"
+"  <albumname> უნდა იყოს 'NULL' სურათების, მხოლოდ, ძირითად\n"
+"  ფოტოალბომში (სურათების ბიბლიოთეკაში დასამატებლად. თუ ფაილის\n"
+"  სახელებს არ მიუთითებთ,მოხდება ცარიელი ალბომის შექმნა.\n"
+
+#: ../tests/test-photos.c:42
+#, c-format
+msgid ""
+"Usage to dump all photos to <output_dir>:\n"
+"  %s dump <mountpoint> <output_dir>\n"
+msgstr ""
+"გამოყენება ყველა სურათის <output_dir>-ში ჩასაყრელად:\n"
+"  %s dump <mountpoint> <output_dir>\n"
+
+#: ../tests/test-photos.c:43
+#, c-format
+msgid ""
+"Usage to list all photos IDs to stdout:\n"
+"  %s list <mountpoint>\n"
+msgstr ""
+"გამოყენება ყველა სურათის ID-ების stdout-ზე გამოსატანად:\n"
+"  %s list <mountpoint>\n"
+
+#: ../tests/test-photos.c:44
+#, c-format
+msgid ""
+"Usage to remove photo IDs from Photo Library:\n"
+"  %s remove <mountpoint> <albumname> [<ID(s)>]\n"
+"  <albumname> should be set to 'NULL' to remove photos from the iPod\n"
+"  altogether. If you don't specify any IDs, the photoalbum will be removed\n"
+"  instead.\n"
+"  WARNING: IDs may change when writing the PhotoDB file.\n"
+msgstr ""
+"გამოყენება სურათის ID-ების სურათების ბიბლიოთეკიდან წასაშლელად:\n"
+"  %s remove <mountpoint> <albumname> [<ID(ებ)-ი>]\n"
+"  <albumname> უნდა იყოს დაყენებული 'NULL' სურათების iPod-დან წასაშლელად\n"
+"  . თუ ID-ებს არ მიუთითებთ, მათ მაგიერ წაიშლება\n"
+"  ფოტოალბომი.\n"
+"  ფრთხილად: ID-ები, შეიძლება, შეიცვალოს PhotoDB-ის ფაილში ჩაწერისას.\n"
+
+#: ../tests/test-photos.c:119
+#, c-format
+msgid "Wrong number of command line arguments.\n"
+msgstr "ბრძანების ხაზის არგუმენტების არასწორი რაოდენობა.\n"
+
+#: ../tests/test-photos.c:128
+#, c-format
+msgid "Error creating '%s' (mkdir)\n"
+msgstr "შეცდომა \"%s\"-ის შექმნისას (mkdir)\n"
+
+#: ../tests/test-photos.c:134
+#, c-format
+msgid "Error: '%s' is not a directory\n"
+msgstr "შეცდომა: '%s' საქაღალდე არაა\n"
+
+#: ../tests/test-photos.c:143 ../tests/test-photos.c:177
+#: ../tests/test-photos.c:306
+#, c-format
+msgid "Error reading iPod photo database (%s).\n"
+msgstr "შეცდომა iPod-ის სურათების ბაზის კითხვისას (%s).\n"
+
+#: ../tests/test-photos.c:149 ../tests/test-photos.c:183
+#: ../tests/test-photos.c:313
+#, c-format
+msgid "Error reading iPod photo database.\n"
+msgstr "შეცდომა iPod-ის სურათების ბაზის კითხვისას.\n"
+
+#: ../tests/test-photos.c:167 ../tests/test-photos.c:226
+#: ../tests/test-photos.c:296 ../tests/test-photos.c:379
+#, c-format
+msgid "Insufficient number of command line arguments.\n"
+msgstr "ბრძანების ხაზის არგუმენტების არასაკმარისი რაოდენობა.\n"
+
+#: ../tests/test-photos.c:194
+msgid "<Unnamed>"
+msgstr "<უსახელო>"
+
+#: ../tests/test-photos.c:209
+#, c-format
+msgid "<No members>\n"
+msgstr "<წევრების გარეშე>\n"
+
+#: ../tests/test-photos.c:236
+#, c-format
+msgid ""
+"Error reading iPod photo database (%s).\n"
+"Will attempt to create a new database.\n"
+msgstr ""
+"შეცდომა iPod-ის სურათების ბაზის კითხვისას (%s).\n"
+"ვცდი, ახალი ბაზა შევქმნა.\n"
+
+#: ../tests/test-photos.c:242
+#, c-format
+msgid ""
+"Error reading iPod photo database, will attempt to create a new database\n"
+msgstr "შეცდომა iPod-ის სურათების ბაზის კითხვისას. ვცდი, ახალი ბაზა შევქმნა.\n"
+
+#: ../tests/test-photos.c:267
+#, c-format
+msgid "Error adding photo (%s) to photo database: %s\n"
+msgstr "შეცდომა სურათის (%s) ბაზაში ჩამატებისას: %s\n"
+
+#: ../tests/test-photos.c:324
+#, c-format
+msgid "Specified album '%s' not found. Aborting.\n"
+msgstr "მითითებული ალბომი '%s' ვერ მოიძებნა. შეწყვეტა.\n"
+
+#: ../tests/test-photos.c:336
+#, c-format
+msgid "Cannot remove Photo Library playlist. Aborting.\n"
+msgstr "ფოტობიბლიოთეკის დასაკრავი სიის წაშლა შეუძლებელია. შეწყვეტა.\n"
+
+#: ../tests/test-photos.c:357
+#, c-format
+msgid "Warning: could not find photo with ID <%d>. Skipping...\n"
+msgstr "გაფრთხილება: ფოტო ID-ით <%d> აღმოჩენილი არაა. გამოტოვება...\n"
+
+#: ../tests/test-photos.c:403
+#, c-format
+msgid "Unknown command '%s'\n"
+msgstr "უცნობი ბრძანება '%s'\n"
+
+#: ../tests/test-init-ipod.c:66
+#, c-format
+msgid "Error initialising iPod: %s\n"
+msgstr "ინიციალიზაციის შეცდომა iPod-სთვის: %s\n"
+
+#: ../tests/test-init-ipod.c:73
+#, c-format
+msgid "Error initialising iPod, unknown error\n"
+msgstr "ინიციალიზაციის შეცდომა iPod-სთვის. უცნობი შეცდომა\n"
+
+#: ../tools/ipod-time-sync.c:37
+#, c-format
+msgid "usage: %s <device> [timezone]\n"
+msgstr "გამოყენება: %s <მოწყობილობა> [დროის სარტყელი]\n"
+
+#: ../tools/read-sysinfoextended-sgutils.c:39
+#, c-format
+msgid "usage: %s <device> <mountpoint>\n"
+msgstr "გამოყენება: %s <მოწყობილობა> <მიმაგრებისწერტილი>\n"
+
+#: ../tools/read-sysinfoextended-sgutils.c:45
+#, c-format
+msgid "Couldn't read xml sysinfo from %s\n"
+msgstr "ვერ წავიკითხე xml sysinfo %s-დან\n"
+
+#: ../tools/read-sysinfoextended-sgutils.c:56
+#, c-format
+msgid "Couldn't resolve Device directory path on %s"
+msgstr "%s-ზე მოწყობილობების ბილიკის ამოხსნა შეუძლებელია"
+
+#: ../tools/read-sysinfoextended-sgutils.c:64
+#, c-format
+msgid "Couldn't resolve SysInfoExtended path on %s"
+msgstr "SysInfoExtended-ის ბილიკის %s-ზე ამოხსნა შეუძლებელია"
+
+#: ../tools/read-sysinfoextended-sgutils.c:74
+#, c-format
+msgid "Couldn't write SysInfoExtended to %s"
+msgstr "SysInfoExtended-ის %s-ში ჩაწერა სეუძლებელია"
