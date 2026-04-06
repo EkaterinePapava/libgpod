@@ -285,7 +285,7 @@ AC_SUBST(PYGOBJECT_LIBS)
 dnl **************************************************
 dnl * internationalization support
 dnl **************************************************
-ALL_LINGUAS="de es fr he it ja ro sv zh_CN"
+ALL_LINGUAS="de es fr he it ja ka ro sv zh_CN"
 
 GETTEXT_PACKAGE=libgpod
 AC_SUBST(GETTEXT_PACKAGE)
